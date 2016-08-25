@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Let's Learn Riot</title>
+</head>
+<body>
+<h1>A riot tutorial driven site</h1>
+<hello-world greet="Lisa"></hello-world>
+<hello-world greet="Dale"></hello-world>
+<hello-world></hello-world>
+<script src="bower_components/riot/riot.min.js"></script>
+<script src="tags/hello-world.js"></script>
+<script>
+    riot.mount("hello-world", {greet:"default no name"});
+</script>
+</body>
+</html>
