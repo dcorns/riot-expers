@@ -9,10 +9,12 @@
 <hello-world greet="Lisa"></hello-world>
 <hello-world greet="Dale"></hello-world>
 <hello-world></hello-world>
+<hello-form></hello-form>
 <script src="bower_components/riot/riot.min.js"></script>
-<script src="tags/hello-world.js"></script>
+<script src="tags/all.js"></script>
 <script>
     riot.mount("hello-world", {greet:"default no name"});
+    riot.mount("hello-form");
 </script>
 </body>
 </html>
