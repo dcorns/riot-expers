@@ -3,7 +3,7 @@
     <input type="text" name="greet">
     <button>Say Hello!</button>
     </form>
-    <h3>Hello {this.greeting}</h3>
+    <hello-world show={this.greeting} greet={this.greeting}></hello-world>
     <script>
     this.sayHello = function(){
     this.greeting = this.greet.value;
