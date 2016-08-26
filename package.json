@@ -1,0 +1,26 @@
+{
+  "name": "riot-expers",
+  "version": "1.0.0",
+  "description": "Contains basic input and output examples<br/> run `riot -w ./tags .tags/allTags.js` to compile all the tag files in ./tags into one js file called .tags/allTags.js whenever a tag file is added or changed.</br>Add `--type typescript` to write tag files using typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcorns/riot-expers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcorns/riot-expers/issues"
+  },
+  "homepage": "https://github.com/dcorns/riot-expers#readme",
+  "dependencies": {
+    "typings": "^1.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
