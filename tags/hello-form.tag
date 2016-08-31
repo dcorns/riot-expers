@@ -15,9 +15,14 @@
     }
     this.person = new Person('Tex');
 
+    riot.observable(this.greet);
+    this.greet.on('submitted', function(){
+       this.value = '';
+    });
+
     this.sayHello = function(){
         this.person.name = this.greet.value;
-        this.greet.value = '';
+        this.greet.trigger('submitted');
         this.person.trigger('change');
     }
 </script>
