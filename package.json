@@ -4,7 +4,7 @@
   "description": "Contains basic input and output examples<br/> run `riot -w ./tags .tags/allTags.js` to compile all the tag files in ./tags into one js file called .tags/allTags.js whenever a tag file is added or changed.</br>Add `--type typescript` to write tag files using typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,19 @@
   },
   "homepage": "https://github.com/dcorns/riot-expers#readme",
   "dependencies": {
+    "riot": "^2.6.1",
     "typings": "^1.3.3"
   },
   "devDependencies": {
-    "typescript": "^1.8.10"
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "tag-loader": "^0.3.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
   }
 }

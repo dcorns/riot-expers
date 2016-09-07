@@ -1,2 +1,3 @@
 bower_components/
 tags/*.js
+bundle.js
