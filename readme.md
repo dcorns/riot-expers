@@ -8,3 +8,7 @@ run `riot -w ./tags .tags/allTags.js` to compile all the tag files in ./tags int
 ###branch withwebpack
 Writing your JavaScript in external files and combining to one bundle.js file. Also includes babel for using es6. To use typescript compile the typescript and then run the webpack. So the following build steps apply:</br>
 ```
+tsc
+webpack
+```
+The have something like http-server run in the background to refresh for changes.
