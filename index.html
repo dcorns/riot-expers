@@ -46,7 +46,7 @@
     riot.route('/powerup/..', function(){  //  #!/powerup/?base=2&power=5  (Math.pow(2,5))
         var params = riot.route.query();
         console.log(Math.pow(params.base, params.power));
-    })
+    });
 </script>
 </body>
 </html>
