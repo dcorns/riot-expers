@@ -11,4 +11,4 @@ Writing your JavaScript in external files and combining to one bundle.js file. A
 tsc
 webpack
 ```
-The have something like http-server run in the background to refresh for changes.
+Then have something like `http-server` run in the background to refresh for changes.
